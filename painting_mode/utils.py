@@ -4,7 +4,7 @@ from torchvision import transforms
 
 
 # Pre-processing
-def prep(image_path, size=700):
+def prep(image_path, size=350):
     image = Image.open(image_path).convert('RGB')
     image2tensor = transforms.Compose([transforms.Resize(size),
                                        transforms.CenterCrop(size),
