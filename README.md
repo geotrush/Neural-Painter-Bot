@@ -26,7 +26,7 @@
 ## :bow: *Acknowledgments*:
 
 - ### *Multi-style Generative Network for Real-time Transfer (Zhang & Dana, 2017)*
-    - ### *[Paper](https://arxiv.org/pdf/1703.06953.pdf) & [GitHub](https://github.com/zhanghang1989/PyTorch-Multi-Style-Transfer)*
+    - ### *[arXiv paper](https://arxiv.org/pdf/1703.06953.pdf) & [GitHub repository](https://github.com/zhanghang1989/PyTorch-Multi-Style-Transfer)*
 
-- ### *Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks (Zhu et al., 2017)
-    - ### *[Paper](https://arxiv.org/pdf/1703.10593.pdf) & [GitHub](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)*
+- ### *Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks (Zhu et al., 2017)*
+    - ### *[arXiv paper](https://arxiv.org/pdf/1703.10593.pdf) & [GitHub repository](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)*
