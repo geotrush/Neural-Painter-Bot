@@ -133,7 +133,7 @@ async def about(message: Message):
     Shows bot info
     '''
     await message.answer('Author: @tensorush 👨‍💻\n'
-                         'GitHub: https://github.com/tensorush/Neural-Painter-Bot')
+                         'GitHub: https://github.com/geotrush/Neural-Painter-Bot')
 
 
 @dp.message_handler(state=None, content_types=ContentType.ANY)
