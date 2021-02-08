@@ -1,6 +1,9 @@
 # :brain::man_artist::robot: **Neural Painter Bot**
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
+
 <p align="center">
     <img src="demos/neural_painter_portrait.jpg" width="440" height="512">
 </p>
