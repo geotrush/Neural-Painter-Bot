@@ -6,10 +6,10 @@
 
 ## :brain::man_artist: [Neural Painter](https://telegram.me/NeuralPainterBot) is a Telegram Bot that implements neural network solutions to the task of Fast Style Transfer :zap:
 
-### :robot: The Bot supports two modes:
+## :robot: The Bot supports two modes:
 
  ### 1. :rainbow: Stylization mode (MSG-Net)
-![preview](demos/stylization.gif)
+<img src="demos/stylization.gif" width="470" height="472">
 
  ### 2. :artist_palette: Painting mode (CycleGAN)
 ![preview](demos/painting.gif)
