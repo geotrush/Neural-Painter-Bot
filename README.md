@@ -17,7 +17,7 @@
 
 ## TODO:
 
-[] Add more painting styles
+- [ ] Add more painting styles
 
 [] Refactor pre-trained CycleGAN models
 
