@@ -23,7 +23,7 @@
 - [ ] Refactor style menu code using OOP patterns such as a factory
 
 
-## :bow: *Acknowledgments*:
+## :bow: *Acknowledgements*:
 
 - ### *Multi-style Generative Network for Real-time Transfer (Zhang & Dana, 2017)*
     - ### *[arXiv paper](https://arxiv.org/pdf/1703.06953.pdf) & [GitHub repository](https://github.com/zhanghang1989/PyTorch-Multi-Style-Transfer)*
