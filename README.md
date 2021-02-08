@@ -14,6 +14,7 @@
  ### :art: Painting mode (CycleGAN)
 <img src="demos/painting.gif" width="468" height="472">
 
+
 ## TODO:
 
 - [ ] Add more painting styles
