@@ -8,12 +8,11 @@
 
 ## :robot: The Bot supports two modes:
 
- ### 1. :rainbow: Stylization mode (MSG-Net)
-<img src="demos/stylization.gif" width="470" height="472">
+ ### :rainbow: Stylization mode (MSG-Net)
+<img src="demos/stylization.gif" width="468" height="472">
 
- ### 2. :artist_palette: Painting mode (CycleGAN)
-![preview](demos/painting.gif)
-
+ ### :art: Painting mode (CycleGAN)
+<img src="demos/painting.gif" width="468" height="472">
 
 ## TODO:
 
