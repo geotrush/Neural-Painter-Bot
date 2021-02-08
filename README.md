@@ -18,7 +18,7 @@
 
 - [ ] Add more painting styles
 
-- [ ] Refactor pre-trained CycleGAN models
+- [ ] Refactor pre-trained CycleGAN model (remove `models/` folder)
 
 - [ ] Refactor style menu code using OOP patterns such as a factory
 
