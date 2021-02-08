@@ -2,7 +2,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
 
-![Portrait of Neural Painter](demos/neural_painter_portrait.jpg?s=200)
+![Portrait of Neural Painter](demos/neural_painter_portrait.jpg?s=20)
 
 ## :brain::man_artist: Neural Painter (@NeuralPainterBot) is a Telegram Bot that implements neural network solutions to the task of Fast Style Transfer :zap:
 
