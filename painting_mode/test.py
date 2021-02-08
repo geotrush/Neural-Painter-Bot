@@ -1,7 +1,7 @@
 from datetime import datetime
 from torch import load, no_grad
 
-from generative_style_transfer.utils import *
+from painting_mode.utils import *
 
 
 class GNST:

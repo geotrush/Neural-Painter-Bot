@@ -6,9 +6,9 @@ import threading
 from io import BytesIO
 
 from config import *
-from fast_style_transfer.test import *
-from fast_style_transfer.style_menu import *
-from generative_style_transfer.test import *
+from painting_mode.test import *
+from stylization_mode.test import *
+from stylization_mode.style_menu import *
 
 from aiogram.dispatcher import FSMContext
 from aiogram.types.message import ContentType

@@ -1,8 +1,8 @@
 from datetime import datetime
 from torch import load, no_grad
 
-from fast_style_transfer.utils import *
-from fast_style_transfer.network import *
+from stylization_mode.utils import *
+from stylization_mode.network import *
 
 
 class FNST:
