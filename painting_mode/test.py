@@ -17,7 +17,7 @@ class GNST:
         self.content = prep(content_path)
 
         # Load network in evaluation mode
-        self.model = load('./generative_style_transfer/cyclegan_van_gogh.pth', map_location='cpu')
+        self.model = load('painting_mode/cyclegan_van_gogh.pth', map_location='cpu')
 
     def _start_clock(self):
         return datetime.now()

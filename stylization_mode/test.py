@@ -22,7 +22,7 @@ class FNST:
         self.model = MSGNet().eval()
 
         # Load model pretrained on 21 styles
-        self.model.load_state_dict(load(f'fast_style_transfer/msgnet_21_styles.pth', map_location='cpu'))
+        self.model.load_state_dict(load('stylization_mode/msgnet_21_styles.pth', map_location='cpu'))
 
         # Pre-compute style targets
         self.model.set_targets(self.style)

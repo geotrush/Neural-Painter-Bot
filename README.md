@@ -2,8 +2,6 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
 
-[![Heroku App Status](https://heroku-shields.herokuapp.com/neural-painter-bot)](https://neural-painter-bot.herokuapp.com)
-
 <p align="center">
     <img src="demos/neural_painter_portrait.jpg" width="440" height="512">
 </p>
