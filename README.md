@@ -1,8 +1,9 @@
 # :brain::man_artist::robot: **Neural Painter Bot**
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
-
-<img align="center" src="demos/neural_painter_portrait.jpg" width="440" height="512">
+<p align="center">
+    <img src="demos/neural_painter_portrait.jpg" width="440" height="512">
+</p>
 
 ## :brain::man_artist: [Neural Painter](https://telegram.me/NeuralPainterBot) is a Telegram Bot that implements neural network solutions to the task of Fast Style Transfer :zap:
 
