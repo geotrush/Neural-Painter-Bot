@@ -1,7 +1,7 @@
 # :brain::man_artist::robot: **Neural Painter Bot**
-![Heroku](https://pyheroku-badge.herokuapp.com/?app=neural-painter-bot&style=plastic)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
+![Heroku](https://pyheroku-badge.herokuapp.com/?app=<neural-painter-bot>&style=<plastic>)
 
 <p align="center">
     <img src="demos/neural_painter_portrait.jpg" width="440" height="512">
