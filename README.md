@@ -4,7 +4,7 @@
 
 <img src="demos/neural_painter_portrait.jpg" width="440" height="512">
 
-## :brain::man_artist: Neural Painter (@NeuralPainterBot) is a Telegram Bot that implements neural network solutions to the task of Fast Style Transfer :zap:
+## :brain::man_artist: [Neural Painter](https://telegram.me/NeuralPainterBot) is a Telegram Bot that implements neural network solutions to the task of Fast Style Transfer :zap:
 
 ### :robot: The Bot supports two modes:
 
