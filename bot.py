@@ -110,7 +110,7 @@ async def stylization(message: Message, state: FSMContext):
     logging.info('Stylization — selecting style...')
     await FNSTStates.style_menu.set()
     async with state.proxy() as data:
-        data['style_path'] = 'fast_style_transfer/style_images/oil_painting.jpg'
+        data['style_path'] = 'stylization_mode/style_images/oil_painting.jpg'
         await message.answer_photo(open(data['style_path'], 'rb'),
                                         caption='1️⃣ Select one of 21 styles...',
                                         reply_markup=select_style_1)
@@ -154,10 +154,10 @@ async def select_style(call: CallbackQuery, callback_data: dict, state: FSMConte
     Navigates the 21 style options
     '''
     name = callback_data.get('name')
-    await call.message.edit_media(InputMediaPhoto(open(f'fast_style_transfer/style_images/{name}.jpg', 'rb')),
+    await call.message.edit_media(InputMediaPhoto(open(f'stylization_mode/style_images/{name}.jpg', 'rb')),
                                   reply_markup=style_menu[name])
     async with state.proxy() as data:
-        data['style_path'] = f'fast_style_transfer/style_images/{name}.jpg'
+        data['style_path'] = f'stylization_mode/style_images/{name}.jpg'
 
 
 @dp.callback_query_handler(text='ignore_style', state=FNSTStates.style_menu)

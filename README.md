@@ -20,6 +20,7 @@
 <img src="demos/painting.gif" width="468" height="472">
 </p>
 
+
 ## TODO:
 
 - [ ] Add more painting styles
