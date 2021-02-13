@@ -25,9 +25,11 @@
 
 - [ ] Add more painting styles
 
-- [ ] Refactor pre-trained CycleGAN model (remove `models/` folder)
+- [ ] Substitute threading.Thread on concurrent.futures.ProcessPool
 
-- [ ] Refactor style menu code using OOP patterns such as a factory
+- [ ] Refactor style menu code using OOP patterns, such as a factory
+
+- [ ] Refactor pre-trained CycleGAN model (remove `./models` subfolder)
 
 
 ## :bow: *Acknowledgements*:
