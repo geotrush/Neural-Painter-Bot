@@ -2,8 +2,8 @@ import os
 import gc
 import asyncio
 import logging
-import threading
 from io import BytesIO
+import concurrent.futures
 
 from config import *
 from painting_mode.test import *
@@ -203,10 +203,13 @@ async def upload_content(message: Message, state: FSMContext):
     input_data = await state.get_data()
     style_path = input_data['style_path']
     # Run FNST in a separate thread
-    thread = threading.Thread(target=lambda message, state, content_path, style_path:
-                              asyncio.run(run_fnst(message, state, content_path, style_path)),
-                              args=(message, state, content_path, style_path))
-    thread.start()
+    # thread = threading.Thread(target=lambda message, state, content_path, style_path:
+    #                           asyncio.run(run_fnst(message, state, content_path, style_path)),
+    #                           args=(message, state, content_path, style_path))
+    # thread.start()
+    loop = asyncio.get_running_loop()
+    with concurrent.futures.ProcessPoolExecutor() as pool:
+        await loop.run_in_executor(pool, run_fnst, (message, state, content_path, style_path))
 
 
 async def run_fnst(message: Message, state: FSMContext, content_path, style_path):
@@ -260,10 +263,13 @@ async def upload_content(message: Message, state: FSMContext):
     # Signal typing
     await ChatActions.typing()
     # Run GNST in a separate thread
-    thread = threading.Thread(target=lambda message, state, content_path:
-                              asyncio.run(run_gnst(message, state, content_path)),
-                              args=(message, state, content_path))
-    thread.start()
+    # thread = threading.Thread(target=lambda message, state, content_path:
+    #                           asyncio.run(run_gnst(message, state, content_path)),
+    #                           args=(message, state, content_path))
+    # thread.start()
+    loop = asyncio.get_running_loop()
+    with concurrent.futures.ProcessPoolExecutor() as pool:
+        await loop.run_in_executor(pool, run_gnst, (message, state, content_path))
 
 
 async def run_gnst(message: Message, state: FSMContext, content_path):
