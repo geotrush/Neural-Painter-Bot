@@ -2,9 +2,9 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
 
-<p align="center">
+<h1 align="center">
     <img src="demos/neural_painter_portrait.jpg" width="440" height="512">
-</p>
+</h1>
 
 ## :brain::man_artist: [Neural Painter](https://telegram.me/NeuralPainterBot) is a Telegram Bot that implements neural network solutions to the task of Fast Style Transfer :zap:
 
@@ -12,12 +12,12 @@
 
  ### :rainbow: Stylization mode (MSG-Net)
 <p align="center">
-<img src="demos/stylization.gif" width="468" height="472">
+    <img src="demos/stylization.gif" width="468" height="472">
 </p>
 
  ### :art: Painting mode (CycleGAN)
 <p align="center">
-<img src="demos/painting.gif" width="468" height="472">
+    <img src="demos/painting.gif" width="468" height="472">
 </p>
 
 
