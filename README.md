@@ -1,12 +1,13 @@
 # :brain::man_artist::robot: **Neural Painter Bot**
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
+[![Telegram](http://img.shields.io/badge/Telegram-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/NeuralPainterBot)
 
 <p align="center">
     <img src="demos/neural_painter_portrait.jpg" width="440" height="512">
 </p>
 
-## :brain::man_artist: [Neural Painter](https://telegram.me/NeuralPainterBot) is a Telegram Bot that implements neural network solutions to the task of Fast Style Transfer :zap:
+## :brain::man_artist: [Neural Painter](https://t.me/NeuralPainterBot) is a Telegram Bot that implements neural network solutions to the task of Fast Style Transfer :zap:
 
 ## :robot: The Bot supports two modes:
 
