@@ -1,6 +1,7 @@
 # :brain::man_artist::robot: **Neural Painter Bot**
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
+[![PyTorch](http://img.shields.io/badge/PyTorch.svg?style=for-the-badge&logo=PyTorch)](https://t.me/NeuralPainterBot)
 [![Telegram](http://img.shields.io/badge/Telegram-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/NeuralPainterBot)
 
 <p align="center">
