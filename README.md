@@ -1,8 +1,8 @@
 # :brain::man_artist::robot: **Neural Painter Bot**
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
-[![PyTorch](https://img.shields.io/badge/PyTorch-red.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org)
-[![Telegram](https://img.shields.io/badge/Telegram-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/NeuralPainterBot)
+[![MadeWithCrayons](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
+[![PyTorch](https://img.shields.io/badge/PyTorch-red.svg?style=for-the-badge&logo=PyTorch&logoColor=white&logoWidth=25)](https://pytorch.org)
+[![Telegram](https://img.shields.io/badge/Telegram-blue.svg?style=for-the-badge&logo=telegram&logoWidth=25)](https://t.me/NeuralPainterBot)
 
 <p align="center">
     <img src="demos/neural_painter_portrait.jpg" width="440" height="512">
